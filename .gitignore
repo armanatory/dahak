@@ -33,3 +33,15 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+bin/Debug/netcoreapp2.2/dahak.dll
+obj/Debug/netcoreapp2.2/dahak.RazorCoreGenerate.cache
+bin/Debug/netcoreapp2.2/dahak.pdb
+bin/Debug/netcoreapp2.2/dahak.Views.dll
+bin/Debug/netcoreapp2.2/dahak.Views.pdb
+obj/Debug/netcoreapp2.2/dahak.dll
+obj/Debug/netcoreapp2.2/dahak.pdb
+obj/Debug/netcoreapp2.2/dahak.Views.dll
+obj/Debug/netcoreapp2.2/dahak.Views.pdb
+obj/Debug/netcoreapp2.2/dahak.csproj.CoreCompileInputs.cache
+obj/Debug/netcoreapp2.2/dahak.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp2.2/dahak.csprojAssemblyReference.cache
