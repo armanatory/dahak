@@ -5,23 +5,32 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using dahak.Models;
+using System.ComponentModel;/*
+using System.Net.Http;
+using AttributeRouting.Web.Http;
+using System.Web.Http;
+using System.Web.Mvc;*/
 
 namespace dahak.Controllers
 {
-    public class HomeController : Controller
+    [Area("Panel")]
+    [Route("Panel/Dashboard/[action]")]
+    [Description("پیشخوان‌")]
+    public class DashboardController : Controller
     {
+
+        [Route("")]
+        [Route("Index")]
+        public IActionResult Index(){
+            return View();
+        }
+        /* 
         public IActionResult Index()
         {
             ViewBag.Test = "This is the test of ViewBag";
             return View();
         }
-
-
-        public string Test()
-        {
-            return "This is the test of ViewBag";
-        }
-
+*/
         public IActionResult Privacy()
         {
             return View();
