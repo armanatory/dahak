@@ -1820,7 +1820,7 @@ svg { direction: ltr !important; }
             .skin-admin .sidebar-form input[type="text"]:focus + .input-group-btn .btn { border-right-color: #fff; }
     .skin-admin .sidebar-form .btn { color: #999; border-top-left-radius: 0; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 0; }
  
-@font-face { font-family: 'iransans-web'; src: url('../Content/fonts/iransans/iransans-web.woff') format('woff'), url('/../Content/fonts/iransans/iransans-web_bold.woff') format('woff'), url('/../Content/fonts/iransans/iransans-web_light.woff') format('woff'), url('/../Content/fonts/iransans/iransans-web_medium.woff') format('woff'), url('/../Content/fonts/iransans/iransans-web_ultralight.woff') format('woff'); }
+@font-face { font-family: 'iransans-web'; src: url('fonts/iransans/iransans-web.woff') format('woff'), url('/fonts/iransans/iransans-web_bold.woff') format('woff'), url('/fonts/iransans/iransans-web_light.woff') format('woff'), url('/fonts/iransans/iransans-web_medium.woff') format('woff'), url('/fonts/iransans/iransans-web_ultralight.woff') format('woff'); }
 
 html, body, input { font-family:iransans-web, Arial, Helvetica, sans-serif !important; font-size: 1em; font-weight: normal !important; }
 
