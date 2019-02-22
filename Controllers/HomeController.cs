@@ -16,6 +16,12 @@ namespace dahak.Controllers
             return View();
         }
 
+
+        public string Test()
+        {
+            return "This is the test of ViewBag";
+        }
+
         public IActionResult Privacy()
         {
             return View();
